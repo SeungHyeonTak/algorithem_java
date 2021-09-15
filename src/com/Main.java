@@ -1,10 +1,10 @@
 package com;
 
-import com.programmers.level1.CoverCellPhone;
+import com.programmers.level1.HashardNumber;
 
 public class Main {
     public static void main(String[] args) {
-        CoverCellPhone cp = new CoverCellPhone();
-        cp.solution("01033334444");
+        HashardNumber hn = new HashardNumber();
+        hn.solution(13);
     }
 }
