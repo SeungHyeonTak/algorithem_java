@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.FindAverage;
+import com.programmers.level1.CollatzConjecture;
 
 public class Main {
     public static void main(String[] args) {
-        FindAverage fa = new FindAverage();
-        int[] arr = {1, 2, 3, 4};
-        fa.solution(arr);
+        CollatzConjecture cc = new CollatzConjecture();
+        int n = 626331;
+        cc.solution(n);
     }
 }
