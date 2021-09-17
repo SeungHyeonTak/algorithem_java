@@ -1,11 +1,12 @@
 package com;
 
-import com.programmers.level1.EvenAndOdd;
+import com.programmers.level1.RemoveSmallNumbers;
 
 public class Main {
     public static void main(String[] args) {
-        EvenAndOdd eo = new EvenAndOdd();
-        int num = 3;
-        eo.solution(num);
+        RemoveSmallNumbers rs = new RemoveSmallNumbers();
+        int[] arr = {2, 3, 1, 4};
+//        int[] arr = {10};
+        rs.solution(arr);
     }
 }
