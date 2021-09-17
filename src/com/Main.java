@@ -1,11 +1,12 @@
 package com;
 
-import com.programmers.level1.CollatzConjecture;
+import com.programmers.level1.MaximunAndMinimun;
 
 public class Main {
     public static void main(String[] args) {
-        CollatzConjecture cc = new CollatzConjecture();
-        int n = 626331;
-        cc.solution(n);
+        MaximunAndMinimun mm = new MaximunAndMinimun();
+        int n = 495;
+        int m = 315;
+        mm.solution(n, m);
     }
 }
