@@ -1,11 +1,12 @@
 package com;
 
-import com.programmers.level1.SquareRoot;
+
+import com.programmers.level1.DescendingOrder;
 
 public class Main {
     public static void main(String[] args) {
-        SquareRoot sr = new SquareRoot();
-        int n = 3;
-        sr.solution(n);
+        DescendingOrder desc = new DescendingOrder();
+        long n = 118372;
+        desc.solution(n);
     }
 }
