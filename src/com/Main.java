@@ -1,12 +1,12 @@
 package com;
 
 
-import com.programmers.level1.DescendingOrder;
+import com.programmers.level1.NumberArrangement;
 
 public class Main {
     public static void main(String[] args) {
-        DescendingOrder desc = new DescendingOrder();
-        long n = 118372;
-        desc.solution(n);
+        NumberArrangement na = new NumberArrangement();
+        long n = 1250;
+        na.solution(n);
     }
 }
