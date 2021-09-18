@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.AddDigits;
+import com.programmers.level1.WeirdText;
 
 public class Main {
     public static void main(String[] args) {
-        AddDigits ad = new AddDigits();
-        int n = 987;
-        ad.solution(n);
+        WeirdText wt = new WeirdText();
+        String s = "try hello world";
+        wt.solution(s);
     }
 }
