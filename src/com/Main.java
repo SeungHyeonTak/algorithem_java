@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.WeirdText;
+import com.programmers.level1.SumOfDivisor;
 
 public class Main {
     public static void main(String[] args) {
-        WeirdText wt = new WeirdText();
-        String s = "try hello world";
-        wt.solution(s);
+        SumOfDivisor sd = new SumOfDivisor();
+        int n = 12;
+        sd.solution(n);
     }
 }
