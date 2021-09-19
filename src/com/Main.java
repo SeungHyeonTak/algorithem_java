@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.StringIntegerConversion;
+import com.programmers.level1.WatermelonProblem;
 
 public class Main {
     public static void main(String[] args) {
-        StringIntegerConversion si = new StringIntegerConversion();
-        String s = "-1234";
-        si.solution(s);
+        WatermelonProblem wp = new WatermelonProblem();
+        int n = 4;
+        wp.solution(n);
     }
 }
