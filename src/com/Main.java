@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.FindingPrime;
+import com.programmers.level1.MrKimSearch;
 
 public class Main {
     public static void main(String[] args) {
-        FindingPrime fp = new FindingPrime();
-        int n = 10;
-        fp.solution(n);
+        MrKimSearch ks = new MrKimSearch();
+        String[] strArr = {"Jane", "Kim"};
+        ks.solution(strArr);
     }
 }
