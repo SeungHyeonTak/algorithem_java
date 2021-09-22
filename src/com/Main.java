@@ -1,11 +1,12 @@
 package com;
 
-import com.programmers.level1.HandlingString;
+
+import com.programmers.level1.StringDesc;
 
 public class Main {
     public static void main(String[] args) {
-        HandlingString hs = new HandlingString();
-        String str = "1234";
-        hs.solution(str);
+        StringDesc sd = new StringDesc();
+        String s = "Zbcdefg";
+        sd.solution(s);
     }
 }
