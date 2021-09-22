@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.MrKimSearch;
+import com.programmers.level1.HandlingString;
 
 public class Main {
     public static void main(String[] args) {
-        MrKimSearch ks = new MrKimSearch();
-        String[] strArr = {"Jane", "Kim"};
-        ks.solution(strArr);
+        HandlingString hs = new HandlingString();
+        String str = "1234";
+        hs.solution(str);
     }
 }
