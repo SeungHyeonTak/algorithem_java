@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.DartGameKakao;
+import com.programmers.level1.MiddleLetter;
 
 public class Main {
     public static void main(String[] args) {
-        DartGameKakao dg = new DartGameKakao();
-        String str = "1S2D*3T";
-        dg.solution(str);
+        MiddleLetter dl = new MiddleLetter();
+        String s = "abcde";
+        dl.solution(s);
     }
 }
