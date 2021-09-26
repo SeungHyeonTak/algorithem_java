@@ -1,11 +1,11 @@
 package com;
 
-import com.programmers.level1.RemoveSameNumber;
+import com.programmers.level1.DartGameKakao;
 
 public class Main {
     public static void main(String[] args) {
-        RemoveSameNumber r = new RemoveSameNumber();
-        int[] arr = {1, 1, 3, 3, 0, 1, 1};
-        r.solution(arr);
+        DartGameKakao dg = new DartGameKakao();
+        String str = "1S2D*3T";
+        dg.solution(str);
     }
 }
