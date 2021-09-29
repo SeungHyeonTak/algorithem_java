@@ -1,14 +1,21 @@
 package com;
 
-import com.programmers.level1.MutualEvaluation;
+import com.programmers.level1.JobRecommendation;
 
 public class Main {
     public static void main(String[] args) {
-        MutualEvaluation me = new MutualEvaluation();
-//        int[][] scores = {{70, 49, 90}, {68, 50, 38}, {73, 31, 100}};
-//        int[][] scores = {{50, 90}, {50, 87}};
-        int[][] scores = {{75, 50, 100}, {75, 100, 20}, {100, 100, 20}};
-//        int[][] scores = {{100, 90, 98, 88, 65}, {50, 45, 99, 85, 77}, {47, 88, 95, 80, 67}, {61, 57, 100, 80, 65}, {24, 90, 94, 75, 65}};
-        me.solution(scores);
+        JobRecommendation jr = new JobRecommendation();
+        String[] table = {
+                "SI JAVA JAVASCRIPT SQL PYTHON C#",
+                "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++",
+                "HARDWARE C C++ PYTHON JAVA JAVASCRIPT",
+                "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP",
+                "GAME C++ C# JAVASCRIPT C JAVA"
+        };
+//        String[] languages = {"PYTHON", "C++", "SQL"};
+        String[] languages = {"JAVA", "JAVASCRIPT"};
+//        int[] preference = {7, 5, 5};
+        int[] preference = {7, 5};
+        jr.solution(table, languages, preference);
     }
 }
