@@ -1,21 +1,19 @@
 package com;
 
-import com.programmers.level1.JobRecommendation;
+import com.programmers.level1.BoxerSorting;
+
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        JobRecommendation jr = new JobRecommendation();
-        String[] table = {
-                "SI JAVA JAVASCRIPT SQL PYTHON C#",
-                "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++",
-                "HARDWARE C C++ PYTHON JAVA JAVASCRIPT",
-                "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP",
-                "GAME C++ C# JAVASCRIPT C JAVA"
-        };
-//        String[] languages = {"PYTHON", "C++", "SQL"};
-        String[] languages = {"JAVA", "JAVASCRIPT"};
-//        int[] preference = {7, 5, 5};
-        int[] preference = {7, 5};
-        jr.solution(table, languages, preference);
+        BoxerSorting bs = new BoxerSorting();
+        int[] weights = {50, 82, 75, 120};
+//        int[] weights = {145,92,86};
+//        int[] weights = {160,70,60};
+        String[] head2head = {"NLWL", "WNLL", "LWNW", "WWLN"};
+//        String[] head2head = {"NLW","WNL","LWN"};
+//        String[] head2head = {"NNN","NNN","NNN"};
+        bs.solution(weights, head2head);
     }
 }
