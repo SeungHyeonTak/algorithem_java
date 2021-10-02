@@ -1,19 +1,13 @@
 package com;
 
-import com.programmers.level1.BoxerSorting;
-
-import java.util.Arrays;
-import java.util.Comparator;
+import com.programmers.level1.MinRectangle;
 
 public class Main {
     public static void main(String[] args) {
-        BoxerSorting bs = new BoxerSorting();
-        int[] weights = {50, 82, 75, 120};
-//        int[] weights = {145,92,86};
-//        int[] weights = {160,70,60};
-        String[] head2head = {"NLWL", "WNLL", "LWNW", "WWLN"};
-//        String[] head2head = {"NLW","WNL","LWN"};
-//        String[] head2head = {"NNN","NNN","NNN"};
-        bs.solution(weights, head2head);
+        MinRectangle mg = new MinRectangle();
+        int[][] sizes = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
+//        int[][] sizes = {{10, 7}, {12, 3}, {8, 15}, {14, 7}, {5, 15}};
+//        int[][] sizes = {{14, 4}, {19, 6}, {6, 16}, {18, 7}, {7, 11}};
+        mg.solution(sizes);
     }
 }
