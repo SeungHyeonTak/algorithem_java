@@ -1,12 +1,13 @@
 package com;
 
-import com.programmers.level1.PickTwoAndAddThem;
+import com.programmers.level1.Budget;
 
 public class Main {
     public static void main(String[] args) {
-        PickTwoAndAddThem pa = new PickTwoAndAddThem();
-//        int[] numbers = {2, 1, 3, 4, 1};
-        int[] numbers = {5, 0, 2, 7};
-        pa.solution(numbers);
+        Budget bud = new Budget();
+//        int[] d = {1, 3, 2, 5, 4};
+        int[] d = {2, 2, 3, 3};
+        int budget = 10;
+        bud.solution(d, budget);
     }
 }
