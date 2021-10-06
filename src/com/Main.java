@@ -1,12 +1,12 @@
 package com;
 
-import com.programmers.level1.FlipThe3DigitRule;
+import com.programmers.level1.MeasureAdd;
 
 public class Main {
     public static void main(String[] args) {
-        FlipThe3DigitRule ft = new FlipThe3DigitRule();
-//        int n = 45;
-        int n = 125;
-        ft.solution(n);
+        MeasureAdd ma = new MeasureAdd();
+        int left = 24;
+        int right = 27;
+        ma.solution(left, right);
     }
 }
