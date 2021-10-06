@@ -1,13 +1,12 @@
 package com;
 
-import com.programmers.level1.Budget;
+import com.programmers.level1.FlipThe3DigitRule;
 
 public class Main {
     public static void main(String[] args) {
-        Budget bud = new Budget();
-//        int[] d = {1, 3, 2, 5, 4};
-        int[] d = {2, 2, 3, 3};
-        int budget = 10;
-        bud.solution(d, budget);
+        FlipThe3DigitRule ft = new FlipThe3DigitRule();
+//        int n = 45;
+        int n = 125;
+        ft.solution(n);
     }
 }
