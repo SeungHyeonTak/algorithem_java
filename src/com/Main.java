@@ -1,13 +1,17 @@
 package com;
 
-import com.programmers.level1.Phonekemon;
+import com.programmers.level1.WorkoutClothes;
 
 public class Main {
     public static void main(String[] args) {
-        Phonekemon pk = new Phonekemon();
-//        int[] nums = {3, 1, 2, 3};
-//        int[] nums = {3, 3, 3, 2, 2, 4};
-        int[] nums = {3, 3, 3, 2, 2, 2};
-        pk.solution(nums);
+        WorkoutClothes wc = new WorkoutClothes();
+        int n = 5;
+        int[] lost = {2, 4};
+//        int[] lost = {2, 1};
+//        int[] lost = {4, 2};
+        int[] reserve = {1, 3, 5};
+//        int[] reserve = {2, 3};
+//        int[] reserve = {3, 5};
+        wc.solution(n, lost, reserve);
     }
 }
