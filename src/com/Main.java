@@ -1,17 +1,14 @@
 package com;
 
-import com.programmers.level1.WorkoutClothes;
+import com.programmers.level1.MockTest;
 
 public class Main {
     public static void main(String[] args) {
-        WorkoutClothes wc = new WorkoutClothes();
-        int n = 5;
-        int[] lost = {2, 4};
-//        int[] lost = {2, 1};
-//        int[] lost = {4, 2};
-        int[] reserve = {1, 3, 5};
-//        int[] reserve = {2, 3};
-//        int[] reserve = {3, 5};
-        wc.solution(n, lost, reserve);
+        MockTest mt = new MockTest();
+        int[] answers = {1, 2, 3, 4, 5};
+//        int[] answers = {1, 3, 2, 4, 2};
+//        int[] answers = {5, 5, 5, 1, 4, 1};
+//        int[] answers = {1, 1, 1, 1};
+        mt.solution(answers);
     }
 }
