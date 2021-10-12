@@ -1,12 +1,14 @@
 package com;
 
-import com.programmers.level1.MinorityMaking;
+import com.programmers.level1.DotProduct;
 
 public class Main {
     public static void main(String[] args) {
-        MinorityMaking mm = new MinorityMaking();
-//        int[] nums = {1, 2, 3, 4};
-        int[] nums = {1, 2, 7, 6, 4};
-        mm.solution(nums);
+        DotProduct dp = new DotProduct();
+//        int[] a = {1, 2, 3, 4};
+        int[] a = {-1, 0, 1};
+//        int[] b = {-3, -1, 0, 2};
+        int[] b = {1, 0, -1};
+        dp.solution(a, b);
     }
 }
