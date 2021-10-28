@@ -1,14 +1,13 @@
 package com;
 
-import com.programmers.level1.LottoQuestion;
+import com.programmers.level1.Knumber;
 
 public class Main {
     public static void main(String[] args) {
-        LottoQuestion lq = new LottoQuestion();
-//        int[] lottos = {44, 1, 0, 0, 31, 25};
-        int[] lottos = {0, 0, 0, 0, 0, 0};
-//        int[] win_nums = {31, 10, 45, 1, 6, 19};
-        int[] win_nums = {38, 19, 20, 40, 15, 25};
-        lq.solution(lottos, win_nums);
+        Knumber k = new Knumber();
+        int[] array = {1, 5, 2, 6, 3, 7, 4};
+        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        k.solution(array, commands);
+
     }
 }
