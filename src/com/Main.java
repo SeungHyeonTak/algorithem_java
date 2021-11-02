@@ -1,13 +1,12 @@
 package com;
 
-import com.programmers.level2.MaxValueMinValue;
+import com.programmers.level2.MinimumValueCreate;
 
 public class Main {
     public static void main(String[] args) {
-        MaxValueMinValue m = new MaxValueMinValue();
-//        String s = "4 3 2 1";
-        String s = "-1 -2 -3 -4";
-//        String s = "-1 -1";
-        m.solution(s);
+        MinimumValueCreate mv = new MinimumValueCreate();
+        int[] A = {1, 4, 2};
+        int[] B = {5, 4, 4};
+        mv.solution(A, B);
     }
 }
