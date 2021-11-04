@@ -1,12 +1,11 @@
 package com;
 
-import com.programmers.level2.MinimumValueCreate;
+import com.programmers.level2.FibonacciNumber;
 
 public class Main {
     public static void main(String[] args) {
-        MinimumValueCreate mv = new MinimumValueCreate();
-        int[] A = {1, 4, 2};
-        int[] B = {5, 4, 4};
-        mv.solution(A, B);
+        FibonacciNumber fn = new FibonacciNumber();
+        int n = 3;
+        fn.solution(n);
     }
 }
